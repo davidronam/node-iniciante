@@ -1,4 +1,4 @@
-POST http://localhost:3000/videos
+POST https://node-iniciante.onrender.com/videos
 Content-Type: application/json / //informa o tipo de conteudo a ser enviado no caso json
 
 {
@@ -8,13 +8,13 @@ Content-Type: application/json / //informa o tipo de conteudo a ser enviado no c
 }
 
 ###
-GET http://localhost:3000/videos
+GET https://node-iniciante.onrender.com/videos
 
 ### 
-GET http://localhost:3000/videos?search=JOAO
+GET https://node-iniciante.onrender.com/videos?search=JOAO
 
 ###
-PUT http://localhost:3000/videos/30b4a5bc-6929-4de8-91e7-b95f1b4136bc
+PUT https://node-iniciante.onrender.com/videos/30b4a5bc-6929-4de8-91e7-b95f1b4136bc
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
   }
 
 ###
-DELETE http://localhost:3000/videos/30b4a5bc-6929-4de8-91e7-b95f1b4136bc
+DELETE https://node-iniciante.onrender.com/videos/
